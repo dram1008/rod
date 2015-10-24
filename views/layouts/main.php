@@ -23,8 +23,7 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name='yandex-verification' content='6721c497dd2fba14'/>
     <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?> :: Генератор Теслы Купить, Арендовать, Бестопливный генератор, Диллерская
-        программа, Доставка в любую точку планеты, Сервисное обслуживание</title>
+    <title><?= Html::encode($this->title) ?> :: Агентство Сохранения Рода</title>
     <link rel="shortcut icon" href="/images/ico.png">
     <?php $this->head() ?>
 </head>
