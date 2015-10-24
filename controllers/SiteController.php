@@ -62,6 +62,21 @@ class SiteController extends BaseController
         return $this->render('index');
     }
 
+    public function actionTrasfere()
+    {
+        return $this->render();
+    }
+
+    public function actionIn()
+    {
+        return $this->render();
+    }
+
+    public function actionOut()
+    {
+        return $this->render();
+    }
+
     public function actionActivate($code)
     {
         $row = \app\services\RegistrationDispatcher::query(['code' => $code])->one();

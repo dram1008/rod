@@ -58,9 +58,9 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                     'options' => ['class' => 'navbar-nav'],
                     'items'   => [
                         ['label' => 'Статьи', 'url' => ['site/production']],
-                        ['label' => 'Уход', 'url' => ['site/production']],
-                        ['label' => 'Переход', 'url' => ['site/production']],
-                        ['label' => 'Приход', 'url' => ['site/production']],
+                        ['label' => 'Уход', 'url' => ['site/out']],
+                        ['label' => 'Переход', 'url' => ['site/trasfere']],
+                        ['label' => 'Приход', 'url' => ['site/in']],
                         ['label' => 'Сотрудничество', 'url' => ['site/diller']],
                         ['label' => 'Контакты', 'url' => ['site/contact']],
                     ],

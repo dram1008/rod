@@ -37,6 +37,11 @@ return [
     'house'                                 => 'site/house',
     'prom'                                  => 'site/prom',
     'diller'                                => 'site/diller',
+
+    'in'                                    => 'site/in',
+    'out'                                   => 'site/out',
+    'trasfere'                              => 'site/trasfere',
+
     'service'                               => 'site/service',
     'rent'                                  => 'site/rent',
     'buy/<id:\\d+>'                         => 'site/buy',

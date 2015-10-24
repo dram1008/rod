@@ -6,10 +6,14 @@ $this->title = 'ПриРоде';
 $this->registerJs("$('.carousel').carousel()");
 ?>
 <div class="site-index">
-    <h1 class="page-header"><?= \yii\bootstrap\Html::encode($this->title) ?> <small>Агентство Сохранения Рода</small></h1>
+    <h1 class="page-header"><?= \yii\bootstrap\Html::encode($this->title) ?>
+        <small>Агентство Сохранения Рода</small>
+    </h1>
 
     <?php $this->registerJs("$('.carousel').carousel()"); ?>
-    <div id="carousel-example-generic" class="carousel slide thumbnail" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide thumbnail" data-ride="carousel" style="
+    margin-bottom: 60px;
+">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -21,17 +25,20 @@ $this->registerJs("$('.carousel').carousel()");
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="/images/controller/site/index/1.jpg" alt="...">
+
                 <div class="carousel-caption">
 
                 </div>
             </div>
             <div class="item">
                 <img src="/images/controller/site/index/2.jpg" alt="...">
+
                 <div class="carousel-caption">
                 </div>
             </div>
             <div class="item">
                 <img src="/images/controller/site/index/3.jpg" alt="...">
+
                 <div class="carousel-caption">
 
                 </div>
@@ -51,40 +58,51 @@ $this->registerJs("$('.carousel').carousel()");
 
     <div class="row">
         <div class="col-lg-4">
-            <img src="/images/controller/site/index/s1.jpg" class="img-circle center-block" width="140" height="140"/>
+            <a href="<?= \yii\helpers\Url::to(['site/out']) ?>">
+                <img src="/images/controller/site/index/s1.jpg" class="img-circle center-block" width="140"
+                     height="140"/>
+            </a>
+
             <h2 class="center-block text-center">Уход души</h2>
-            <p class="center-block text-center">Ритуал «Отправление к РОДУ НЕБЕСНОМУ» - это процедура воссоединения души умершего человека с его Родом Небесным. Суть ее заключается в том, что тело сжигается на костре, на чистом воздухе на чистой Земле с направлением души к предкам и Роду Небесному.</p>
+
+            <p class="center-block text-center">Ритуал «Отправление к РОДУ НЕБЕСНОМУ» - это процедура воссоединения души
+                умершего человека с его Родом Небесным. Суть ее заключается в том, что тело сжигается на костре, на
+                чистом воздухе на чистой Земле с направлением души к предкам и Роду Небесному.</p>
         </div>
         <div class="col-lg-4">
-            <img src="/images/controller/site/index/s2.jpg" class="img-circle center-block" width="140" height="140"/>
+            <a href="<?= \yii\helpers\Url::to(['site/trasfere']) ?>">
+                <img src="/images/controller/site/index/s2.jpg" class="img-circle center-block" width="140"
+                     height="140"/>
+            </a>
+
             <h2 class="center-block text-center">Странствия души</h2>
-            <p class="center-block text-center">Консалтинговые услуги по действиям в промежуточном состоянии между уходом и приходом на Землю</p>
+
+            <p class="center-block text-center">Консалтинговые услуги по действиям в промежуточном состоянии между
+                уходом и приходом на Землю</p>
         </div>
         <div class="col-lg-4">
-            <img src="/images/controller/site/index/s3.jpg" class="img-circle center-block" width="140" height="140"/>
+            <a href="<?= \yii\helpers\Url::to(['site/in']) ?>">
+                <img src="/images/controller/site/index/s3.jpg" class="img-circle center-block" width="140"
+                     height="140"/>
+            </a>
+
             <h2 class="center-block text-center">Приход души</h2>
+
             <p class="center-block text-center">Призывание Великой Души. Здоровые роды на Земле по законам космоса.</p>
         </div>
     </div>
 
 
     <h2 class="page-header">Новости</h2>
+
     <div class="row">
         <div class="col-lg-4">
             <p style="font-size: 70%;color: #888;">27 сен 2015 г.</p>
+
             <h3>C 5 октября ожидается повышение цен на генераторы</h3>
             <img src="/images/controller/site/index/news/news1.jpg" width="100%" class="thumbnail"/>
         </div>
     </div>
-
-    <hr>
-
-    <div class="jumbotron">
-        <h1>Заказ:</h1>
-        <p>rod@galaxysss.ru</p>
-        <p><a class="btn btn-primary btn-lg" href="/production" role="button">Выбрать модель</a></p>
-    </div>
-
 
 
     <?php
@@ -95,7 +113,8 @@ $this->registerJs("$('.carousel').carousel()");
         }
     }
 
-    if ($isShowForm) { ?>
+    if ($isShowForm) {
+        ?>
         <hr>
         <div class="row">
             <div class="col-lg-4 col-lg-offset-4">
@@ -165,17 +184,23 @@ JS
                     </div>
                     <div class="panel-body">
                         <form id="formSubscribe">
-                            <?php if (Yii::$app->user->isGuest) {?>
+                            <?php if (Yii::$app->user->isGuest) { ?>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="formSubscribeName" placeholder="Имя">
-                                    <p class="help-block help-block-error hide">Это поле должно быть заполнено обязательно</p>
+
+                                    <p class="help-block help-block-error hide">Это поле должно быть заполнено
+                                        обязательно</p>
                                 </div>
-                            <?php }?>
+                            <?php } ?>
                             <div class="form-group">
                                 <input type="email" class="form-control" id="formSubscribeEmail" placeholder="Email">
-                                <p class="help-block help-block-error hide">Это поле должно быть заполнено обязательно</p>
+
+                                <p class="help-block help-block-error hide">Это поле должно быть заполнено
+                                    обязательно</p>
                             </div>
-                            <button type="button" class="btn btn-default" style="width: 100%;" id="formSubscribeSubmit">Подписаться</button>
+                            <button type="button" class="btn btn-default" style="width: 100%;" id="formSubscribeSubmit">
+                                Подписаться
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -188,7 +213,7 @@ JS
                 <p class="alert alert-success">Вы успешно подписались на рассылку</p>
             </div>
         </div>
-        <?php } ?>
+    <?php } ?>
 
 
     <hr>
