@@ -2,11 +2,11 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'Тесла Ген';
+$this->title = 'ПриРоде';
 $this->registerJs("$('.carousel').carousel()");
 ?>
 <div class="site-index">
-    <h1 class="page-header"><?= \yii\bootstrap\Html::encode($this->title) ?> <small>энергосистемы и источники питания здесь и сейчас</small></h1>
+    <h1 class="page-header"><?= \yii\bootstrap\Html::encode($this->title) ?> <small>агентство сохранения рода</small></h1>
 
     <?php $this->registerJs("$('.carousel').carousel()"); ?>
     <div id="carousel-example-generic" class="carousel slide thumbnail" data-ride="carousel">
@@ -53,33 +53,20 @@ $this->registerJs("$('.carousel').carousel()");
     <div class="row">
         <div class="col-lg-4">
             <img src="/images/controller/site/index/cvetok-life2.jpg" class="img-circle center-block" width="140" height="140"/>
-            <h2 class="center-block text-center">Вечная батарея</h2>
-            <p class="center-block text-center">Электрогенератор вырабатывает электроэнергию, не потребляя какого-либо топлива. Для выработки электроэнергии также нет необходимости во внешней энергии ветра, солнца, воды и т.п.</p>
+            <h2 class="center-block text-center">Уход души</h2>
+            <p class="center-block text-center">Ритуал «Отправление к РОДУ НЕБЕСНОМУ» - это процедура воссоединения души умершего человека с его Родом Небесным. Суть ее заключается в том, что тело сжигается на костре, на чистом воздухе на чистой Земле с направлением души к предкам и Роду Небесному.</p>
         </div>
         <div class="col-lg-4">
             <img src="/images/controller/site/index/f4.jpg" class="img-circle center-block" width="140" height="140"/>
-            <h2 class="center-block text-center">Тихий</h2>
-            <p class="center-block text-center">Уровень шума в момент регулирования<br> не более 30 дБ<br>для сравнения Тихий шепот	- 35 дБ, Спокойный разговор - 70 дБ</p>
+            <h2 class="center-block text-center">Странствия души</h2>
+            <p class="center-block text-center">Консалтинговые услуги по действиям в промежуточном состоянии между уходом и приходом на Землю</p>
         </div>
         <div class="col-lg-4">
             <img src="/images/controller/site/index/f5.jpg" class="img-circle center-block" width="140" height="140"/>
-            <h2 class="center-block text-center">Работает всегда</h2>
-            <p class="center-block text-center">Время работы не ограничено. Расчетный срок службы от 10 лет</p>
+            <h2 class="center-block text-center">Приход души</h2>
+            <p class="center-block text-center">Призывание Великой Души. Здоровые роды на Земле по законам космоса.</p>
         </div>
     </div>
-
-    <hr>
-
-    <p>Общий принцип работы самозапитки: работа ротовертера + умножитель энергии.</p>
-
-    <p>Аккумулятор служит только для запуска генератора. При отключении аккумулятора может работать. Время работы
-        неограниченно.</p>
-
-    <p>Рабочий диапазон температуры окружающей среды, °С -35...+40</p>
-
-    <p>Гарантия: 3 года</p>
-
-    <p>Услуги сервисного обслуживания</p>
 
 
     <h2 class="page-header">Новости</h2>
