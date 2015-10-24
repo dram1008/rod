@@ -46,8 +46,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <p>
 
-                Агентство действует по Лицензии от Хранителей Судьбы и Владык Кармы и при участии «Академии Родоведения»
-                http://www.galaxysss.ru/category/study/171. Благословения были получены в период сакрального Сентября
+                Агентство действует по Лицензии от Хранителей Судьбы и Владык Кармы и при участии
+                «<a href="http://www.galaxysss.ru/category/study/171" target="_blank">Академии Родоведения</a>».
+                Благословения были получены в период сакрального Сентября
                 2015 г. и ранее при передаче знаний из Академии Родоведения.
             </p>
 
@@ -79,7 +80,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 - Проведение ритуала.
             </p>
             <?php $this->registerJs("$('.buttonOrder').tooltip()")?>
-            <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать">
+            <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
                 100 000 руб.
             </a>
         </div>
