@@ -22,19 +22,18 @@ $this->registerJs("$('.carousel').carousel()");
             <div class="item active">
                 <img src="/images/controller/site/index/1.jpg" alt="...">
                 <div class="carousel-caption">
-                    ...
+
                 </div>
             </div>
             <div class="item">
                 <img src="/images/controller/site/index/2.jpg" alt="...">
                 <div class="carousel-caption">
-                    ...
                 </div>
             </div>
             <div class="item">
                 <img src="/images/controller/site/index/3.jpg" alt="...">
                 <div class="carousel-caption">
-                    ...
+
                 </div>
             </div>
         </div>
@@ -52,17 +51,17 @@ $this->registerJs("$('.carousel').carousel()");
 
     <div class="row">
         <div class="col-lg-4">
-            <img src="/images/controller/site/index/cvetok-life2.jpg" class="img-circle center-block" width="140" height="140"/>
+            <img src="/images/controller/site/index/s1.jpg" class="img-circle center-block" width="140" height="140"/>
             <h2 class="center-block text-center">Уход души</h2>
             <p class="center-block text-center">Ритуал «Отправление к РОДУ НЕБЕСНОМУ» - это процедура воссоединения души умершего человека с его Родом Небесным. Суть ее заключается в том, что тело сжигается на костре, на чистом воздухе на чистой Земле с направлением души к предкам и Роду Небесному.</p>
         </div>
         <div class="col-lg-4">
-            <img src="/images/controller/site/index/f4.jpg" class="img-circle center-block" width="140" height="140"/>
+            <img src="/images/controller/site/index/s2.jpg" class="img-circle center-block" width="140" height="140"/>
             <h2 class="center-block text-center">Странствия души</h2>
             <p class="center-block text-center">Консалтинговые услуги по действиям в промежуточном состоянии между уходом и приходом на Землю</p>
         </div>
         <div class="col-lg-4">
-            <img src="/images/controller/site/index/f5.jpg" class="img-circle center-block" width="140" height="140"/>
+            <img src="/images/controller/site/index/s3.jpg" class="img-circle center-block" width="140" height="140"/>
             <h2 class="center-block text-center">Приход души</h2>
             <p class="center-block text-center">Призывание Великой Души. Здоровые роды на Земле по законам космоса.</p>
         </div>
