@@ -47,7 +47,7 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                 <a class="navbar-brand" href="/" style="padding: 5px 0px 5px 0px;">
                     <img src="/images/logo2.png" height="40">
                 </a>
-                <a class="navbar-brand" href="/" style="padding: 5px 0px 5px 0px;">
+                <a class="navbar-brand" href="/" style="padding: 5px 0px 5px 30px;">
                         <img src="/images/logo3.png" height="40">
                 </a>
             </div>
@@ -57,14 +57,11 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                 <?= Nav::widget([
                     'options' => ['class' => 'navbar-nav'],
                     'items'   => [
-//                        ['label' => 'О проекте', 'url' => ['site/about']],
-                        ['label' => 'Продукция', 'url' => ['site/production']],
-//                        ['label' => 'Хозяинам домов', 'url' => ['site/house']],
-//                        ['label' => 'Промышленное использование', 'url' => ['site/prom']],
-                        ['label' => 'Тест драйв', 'url' => ['site/rent']],
-                        ['label' => 'Сервис', 'url' => ['site/service']],
-                        ['label' => 'Доставка', 'url' => ['site/dostavka']],
-                        ['label' => 'Диллерская программа', 'url' => ['site/diller']],
+                        ['label' => 'Статьи', 'url' => ['site/production']],
+                        ['label' => 'Уход', 'url' => ['site/production']],
+                        ['label' => 'Переход', 'url' => ['site/production']],
+                        ['label' => 'Приход', 'url' => ['site/production']],
+                        ['label' => 'Сотрудничество', 'url' => ['site/diller']],
                         ['label' => 'Контакты', 'url' => ['site/contact']],
                     ],
                 ]);
