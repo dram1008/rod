@@ -24,7 +24,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         Башня Эволюция</p>
 
     <div class="jumbotron">
-        <p>teslagen@galaxysss.ru</p>
+        <p>rod@galaxysss.ru</p>
     </div>
     <?=
 
