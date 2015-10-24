@@ -14,7 +14,7 @@ $this->registerJs("$('.carousel').carousel()");
     <div id="carousel-example-generic" class="carousel slide thumbnail" data-ride="carousel" style="
     margin-bottom: 60px;
 ">
-<!--        <!-- Indicators -->-->
+       <!-- Indicators -->
 <!--        <ol class="carousel-indicators">-->
 <!--            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
 <!--            <li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
