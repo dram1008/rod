@@ -8,7 +8,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'Диллерская программа';
+$this->title = 'Дилерская программа';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
@@ -19,10 +19,9 @@ $this->params['breadcrumbs'][] = $this->title;
             <img src="/images/controller/site/diller/diller.jpg" class="thumbnail" width="100%"/>
         </div>
         <div class="col-lg-8 col-lg-offset-2">
-            <p>Мы рассматриваем ваши предложения на конкурсной основе.</p>
-            <p>Высылайте описание о роде вашей деятельности, необходимых объемах и ваше предложение.</p>
-            <p>Фото, дата и место рождения.</p>
-            <p>teslagen@galaxysss.ru</p>
+            <p>У нас есть менеджерская программа.</p>
+            <p>С каждого приведенного вами клиента вы получаете 10% от суммы заказа.</p>
+            <p>Счет идет со второго клиента.</p>
         </div>
     </div>
 
