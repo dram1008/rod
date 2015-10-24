@@ -8,38 +8,53 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'Контакты';
+$this->title = 'Переход';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
     <h1 class="page-header"><?= Html::encode($this->title) ?></h1>
 
-    <p><img src="/images/controller/site/contact/contact.jpg" width="100%" class="thumbnail"/></p>
+    <p><img src="/images/controller/site/transfere/header.jpg" width="100%" class="thumbnail"/></p>
 
-    <p class="lead">
-        Земля <span class="glyphicon glyphicon-chevron-right">
-            Россия             <span class="glyphicon glyphicon-chevron-right">
-                Москва <span class="glyphicon glyphicon-chevron-right">
-                    Moscow City <span class="glyphicon glyphicon-chevron-right">
-                        Башня Эволюция</p>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <p>
+                Консалтинговые услуги по действиям в промежуточном состоянии между уходом и приходом на
+                Землю
+            </p>
 
-    <div class="jumbotron">
-        <p>rod@galaxysss.ru</p>
+            <?php $this->registerJs("$('.buttonOrder').tooltip()")?>
+            <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
+                2 000 руб. / час
+            </a>
+
+            <p>
+                Смягчить кармическую ответственность перед Владыками Кармы и Хранителями Судьбы (Отпускание грехов)
+            </p>
+
+            <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
+                20 000 руб.
+            </a>
+
+            <p>
+                Последнее слово
+            </p>
+
+            <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
+                20 000 руб.
+            </a>
+
+            <p>
+                Связь с умершей душой
+            </p>
+
+            <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
+                20 000 руб.
+            </a>
+
+
+        </div>
     </div>
-    <?=
-
-    (new \app\services\GoogleMaps())->map([
-        'width'     => '100%',
-        'height'    => '400',
-        'pointList' => [[
-            'lng'         => '37.541718',
-            'lat'         => '55.748577',
-            'name'        => 'Московский офис',
-            'description' => 'Земля, Россия, Москва, Moscow City, Башня Эволюция',
-            'image'       => '',
-            'url'         => '',
-        ]],
-    ]) ?>
 
     <hr>
     <?= $this->render('../blocks/share', [
