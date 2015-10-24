@@ -8,7 +8,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'Контакты';
+$this->title = 'Отправление к РОДУ НЕБЕСНОМУ';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
@@ -16,7 +16,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <p><img src="/images/controller/site/contact/contact.jpg" width="100%" class="thumbnail"/></p>
 
-    <p>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <p>
         Агентство Сохранения Рода предоставляет жителям земли Уникальное Торговое Предложение.
     </p>
     <p>
@@ -64,6 +66,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
         Стоимость: 100 000 руб.
     </p>
+        </div>
+    </div>
 
 
     <hr>
