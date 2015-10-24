@@ -77,54 +77,11 @@ $this->registerJs("$('.carousel').carousel()");
         </div>
     </div>
 
-    <h2 class="page-header">Цены</h2>
-
-
-    <table class="table table-hover table-striped" style="width: 100%; max-width: 500px;">
-        <tr>
-            <th>Мощность, кВт</th>
-            <th>Напряжение, В</th>
-            <th>Цена, тыс. руб</th>
-        </tr>
-        <?php foreach (\app\models\Product::query()->orderBy([
-            'v'   => SORT_ASC,
-            'kvt' => SORT_ASC,
-        ])->all() as $item) {
-            ?>
-            <tr>
-                <td><?= $item['kvt'] ?></td>
-                <td><?= $item['v'] ?></td>
-                <td><?= Yii::$app->formatter->asDecimal($item['price']/1000, 0) ?></td>
-            </tr>
-        <?php }?>
-
-    </table>
-
-    <h2 class="page-header">Принцип работы</h2>
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="/images/controller/site/index/p.jpg" width="100%" class="thumbnail"/>
-        </div>
-        <div class="col-lg-4">
-            <p>Есть генератор.</p>
-            <p>Он соединен напрямую с двигателем который его раскручивает.</p>
-            <p>Генератор питает двигатель.</p>
-            <p>Генератор вырабатывает в четыре раза больше чем потребляет двигатель.</p>
-            <p>Получаемая разница и идет на выход.</p>
-            <p>Для исключения потерь существует умножитель энергии, который построен на магнитах, которые отталкиваясь друг от друга дают дополнительный импульс движения (это и есть секретная формула Теслы которую мы освоили). Все это обеспечивается встроенной электроникой.</p>
-            <p>Заводится от аккумулятора. Потом работает автономно и выдает бесконечно указанную мощность.</p>
-        </div>
-        <div class="col-lg-4">
-            <img src="/images/controller/site/index/magnit.jpg" width="100%" class="thumbnail"/>
-        </div>
-    </div>
-
-
     <hr>
 
     <div class="jumbotron">
         <h1>Заказ:</h1>
-        <p>teslagen@galaxysss.ru</p>
+        <p>rod@galaxysss.ru</p>
         <p><a class="btn btn-primary btn-lg" href="/production" role="button">Выбрать модель</a></p>
     </div>
 
