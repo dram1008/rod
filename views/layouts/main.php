@@ -46,7 +46,9 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                 </button>
                 <a class="navbar-brand" href="/" style="padding: 5px 0px 5px 0px;">
                     <img src="/images/logo2.png" height="40">
-                    <img src="/images/logo3.png" height="40">
+                </a>
+                <a class="navbar-brand" href="/" style="padding: 5px 0px 5px 0px;">
+                        <img src="/images/logo3.png" height="40">
                 </a>
             </div>
 
