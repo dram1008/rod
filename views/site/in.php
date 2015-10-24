@@ -8,38 +8,63 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'Приход';
+$this->title = 'Приход души. Здоровые роды';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
     <h1 class="page-header"><?= Html::encode($this->title) ?></h1>
 
-    <p><img src="/images/controller/site/contact/contact.jpg" width="100%" class="thumbnail"/></p>
+    <p><img src="/images/controller/site/in/header.jpg" width="100%" class="thumbnail"/></p>
 
-    <p class="lead">
-        Земля <span class="glyphicon glyphicon-chevron-right">
-            Россия             <span class="glyphicon glyphicon-chevron-right">
-                Москва <span class="glyphicon glyphicon-chevron-right">
-                    Moscow City <span class="glyphicon glyphicon-chevron-right">
-                        Башня Эволюция</p>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <p>
+                перинатальные услуги, теоретический и практический интенсив по естественному родительству
+            </p>
 
-    <div class="jumbotron">
-        <p>rod@galaxysss.ru</p>
+            <p>
+                Последовательная информация о здоровом образе жизни в беременность: сыроедении, вегетарианстве,
+                закаливании, голодании, пранаяме, йоге для беременных.
+            </p>
+
+            <p>
+                Подготовка к зачатию, беременности, водным родам, лотосовому рождению. Семинары и вебинары по родам.
+            </p>
+
+            <p>
+                Обучение беби-йоге, динамической гимнастике, грудничковому плаванию.
+            </p>
+
+            <p>
+                Послеродовое восстановление женщины: банные и повивальные практики, пеленания льняным полотенцем,
+                звукорезонансный чакровый массаж тибетскими чашами и диджериду.
+            </p>
+
+            <p>
+                Практические семинары по водному ребефингу в бане и сухому ребефингу под диджериду и тибетские поющие
+                чаши.
+            </p>
+
+            <p>
+
+                ❗На данный момент открыт набор на два он-лайн курса:<br>
+                1. Курс подготовки к естественным родам (подробнее здесь:<br>
+                https://vk.com/topic-52645074_28760487?offset=0, а также у администратора группы)<br>
+                2. Семинар (5 вебинаров) по теме Беременность и сыроедение. Ссылка на мероприятие:
+                https://vk.com/syroedberemen<br>
+                3. Также вы можете приобрести уже изданную книгу Зои Борисовой ЗДОРОВЫЕ РОДЫ – ГАРМОНИЯ ОТ ПРИРОДЫ в
+                электронном виде (336 стр., 750 рублей) (всем желающим приобрести - обращаться к администратору группы)
+            </p>
+            <p>
+                https://vk.com/zoya_borisova
+            </p>
+
+            <?php $this->registerJs("$('.buttonOrder').tooltip()") ?>
+            <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
+                100 000 руб.
+            </a>
+        </div>
     </div>
-    <?=
-
-    (new \app\services\GoogleMaps())->map([
-        'width'     => '100%',
-        'height'    => '400',
-        'pointList' => [[
-            'lng'         => '37.541718',
-            'lat'         => '55.748577',
-            'name'        => 'Московский офис',
-            'description' => 'Земля, Россия, Москва, Moscow City, Башня Эволюция',
-            'image'       => '',
-            'url'         => '',
-        ]],
-    ]) ?>
 
     <hr>
     <?= $this->render('../blocks/share', [
