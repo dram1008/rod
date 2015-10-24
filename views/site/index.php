@@ -92,19 +92,6 @@ $this->registerJs("$('.carousel').carousel()");
         </div>
     </div>
 
-
-    <h2 class="page-header">Новости</h2>
-
-    <div class="row">
-        <div class="col-lg-4">
-            <p style="font-size: 70%;color: #888;">27 сен 2015 г.</p>
-
-            <h3>C 5 октября ожидается повышение цен на генераторы</h3>
-            <img src="/images/controller/site/index/news/news1.jpg" width="100%" class="thumbnail"/>
-        </div>
-    </div>
-
-
     <?php
     $isShowForm = false;
     if (Yii::$app->user->isGuest) {
