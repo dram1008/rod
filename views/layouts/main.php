@@ -57,6 +57,7 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                 <?= Nav::widget([
                     'options' => ['class' => 'navbar-nav'],
                     'items'   => [
+                        ['label' => 'О нас', 'url' => ['site/about']],
                         ['label' => 'Статьи', 'url' => ['site/production']],
                         ['label' => 'Уход', 'url' => ['site/out']],
                         ['label' => 'Переход', 'url' => ['site/trasfere']],

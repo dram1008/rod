@@ -40,6 +40,7 @@ return [
 
     'in'                                    => 'site/in',
     'out'                                   => 'site/out',
+    'about'                                   => 'site/about',
     'trasfere'                              => 'site/trasfere',
 
     'service'                               => 'site/service',
