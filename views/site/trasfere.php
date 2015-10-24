@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
                 2 000 руб. / час
             </a>
-
+            <hr>
             <p>
                 Смягчить кармическую ответственность перед Владыками Кармы и Хранителями Судьбы (Отпускание грехов)
             </p>
@@ -35,6 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
                 20 000 руб.
             </a>
+            <hr>
 
             <p>
                 Последнее слово
@@ -43,6 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
                 20 000 руб.
             </a>
+            <hr>
 
             <p>
                 Связь с умершей душой
