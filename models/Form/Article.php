@@ -144,17 +144,9 @@ class Article extends \cs\base\BaseForm
 
     public function update($fieldsCols = null)
     {
-        $row = parent::update([
-            'beforeUpdate' => function ($fields) {
-                if ($fields['description'] == '') {
-                    $fields['description'] = GsssHtml::getMiniText($fields['content']);
-                }
+        parent::update();
 
-                return $fields;
-            }
-        ]);
-        VarDumper::dump($row);
-        $item = \app\models\Article::find($row['id']);
+        $item = \app\models\Article::find($this->id);
         $fields = [];
         if ($this->is_add_image) {
             $fields['content'] = Html::tag('p', Html::img(\cs\Widget\FileUpload2\FileUpload::getOriginal($item->getField('image')), [
