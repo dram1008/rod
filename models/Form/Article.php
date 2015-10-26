@@ -34,6 +34,8 @@ class Article extends \cs\base\BaseForm
     /** @var  int маска которая содержит идентификаторы разделов к которому принадлежит ченелинг */
     public $tree_node_id_mask;
     public $is_added_site_update;
+    /** @var  bool */
+    public $is_add_image = true;
 
     function __construct($fields = [])
     {
@@ -43,6 +45,16 @@ class Article extends \cs\base\BaseForm
                 'Название',
                 1,
                 'string'
+            ],
+            [
+                'is_add_image',
+                'Добавлять картинку вначале статьи?',
+                0,
+                'cs\Widget\CheckBox2\Validator',
+                'widget' => [
+                    'cs\Widget\CheckBox2\CheckBox',
+                ],
+                'isFieldDb' => false,
             ],
             [
                 'source',
@@ -117,9 +129,8 @@ class Article extends \cs\base\BaseForm
                 'class' => 'thumbnail',
                 'style' => 'width:100%;',
             ])) . $item->getField('content') ];
-        if ($row['description'] == '') {
-            $item = new NewsItem($row);
-            $fields['description'] = GsssHtml::getMiniText($row['content']);
+        if ($item->getField('description') == '') {
+            $fields['description'] = GsssHtml::getMiniText($item->getField('content'));
         }
         $item->update($fields);
 
