@@ -17,13 +17,13 @@ $this->params['breadcrumbs'][] = $this->title;
         <h1><?= Html::encode($this->title) ?></h1>
     </div>
 
-    <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
+    <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')) { ?>
 
         <div class="alert alert-success">
             Успешно добавлено.
         </div>
 
-    <?php else: ?>
+    <?php } else { ?>
 
 
         <div class="row">
@@ -54,5 +54,5 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
         </div>
 
-    <?php endif; ?>
+    <?php } ?>
 </div>
