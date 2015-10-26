@@ -124,22 +124,27 @@ class Article extends \cs\base\BaseForm
             },
         ]);
 
-        $item = new \app\models\Article($row);
-        $fields = ['content' => Html::tag('p', Html::img(\cs\Widget\FileUpload2\FileUpload::getOriginal($item->getField('image')), [
-                'class' => 'thumbnail',
-                'style' => 'width:100%;',
-            ])) . $item->getField('content') ];
+        $item = \app\models\Article::find($row['id']);
+        $fields = [];
+        if ($this->is_add_image) {
+            $fields['content'] = Html::tag('p', Html::img(\cs\Widget\FileUpload2\FileUpload::getOriginal($item->getField('image')), [
+                    'class' => 'thumbnail',
+                    'style' => 'width:100%;',
+                ])) . $item->getField('content');
+        }
         if ($item->getField('description') == '') {
             $fields['description'] = GsssHtml::getMiniText($item->getField('content'));
         }
-        $item->update($fields);
+        if (count($fields) > 0) {
+            $item->update($fields);
+        }
 
         return $item;
     }
 
     public function update($fieldsCols = null)
     {
-        return parent::update([
+        $row = parent::update([
             'beforeUpdate' => function ($fields) {
                 if ($fields['description'] == '') {
                     $fields['description'] = GsssHtml::getMiniText($fields['content']);
@@ -148,6 +153,21 @@ class Article extends \cs\base\BaseForm
                 return $fields;
             }
         ]);
+
+        $item = \app\models\Article::find($row['id']);
+        $fields = [];
+        if ($this->is_add_image) {
+            $fields['content'] = Html::tag('p', Html::img(\cs\Widget\FileUpload2\FileUpload::getOriginal($item->getField('image')), [
+                    'class' => 'thumbnail',
+                    'style' => 'width:100%;',
+                ])) . $item->getField('content');
+        }
+        if ($item->getField('description') == '') {
+            $fields['description'] = GsssHtml::getMiniText($item->getField('content'));
+        }
+        if (count($fields) > 0) {
+            $item->update($fields);
+        }
     }
 
 }
