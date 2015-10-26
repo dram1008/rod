@@ -12,8 +12,10 @@ $this->title = $item->getField('header');
 <div class="site-contact">
     <h1 class="page-header"><?= Html::encode($this->title) ?></h1>
 
-    <div class="col-lg-8 col-lg-offset-2">
-        <?= $item->getField('content') ?>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <?= $item->getField('content') ?>
+        </div>
     </div>
 
 
