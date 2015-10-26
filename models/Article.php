@@ -57,4 +57,27 @@ class Article extends \cs\base\DbRecord
 
         return \yii\helpers\Url::to($this->getField('image'), $isScheme);
     }
+
+    /**
+     * Возвращает ссылку на статью
+     *
+     * @param bool $isScheme надо ли добавлять полный путь
+     *
+     * @return string
+     */
+    public function getLink($isScheme = false)
+    {
+        $date = $this->getField('date');
+        $year = substr($date, 0, 4);
+        $month = substr($date, 5, 2);
+        $day = substr($date, 8, 2);
+
+        return \yii\helpers\Url::to([
+            'site/article',
+            'year'  => $year,
+            'month' => $month,
+            'day'   => $day,
+            'id'    => $this->getField('id_string'),
+        ], $isScheme);
+    }
 }

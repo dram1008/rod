@@ -57,7 +57,7 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                     'options' => ['class' => 'navbar-nav'],
                     'items'   => [
                         ['label' => 'О нас', 'url' => ['site/about']],
-                        ['label' => 'Статьи', 'url' => ['site/production']],
+                        ['label' => 'Статьи', 'url' => ['site/articles']],
                         ['label' => 'Уход', 'url' => ['site/out']],
                         ['label' => 'Переход', 'url' => ['site/trasfere']],
                         ['label' => 'Приход', 'url' => ['site/in']],

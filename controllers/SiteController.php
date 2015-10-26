@@ -2,10 +2,10 @@
 
 namespace app\controllers;
 
+use app\models\Article;
 use app\models\Form\NewPassword;
 use app\models\Form\Request;
 use app\models\Log;
-use app\models\Product;
 use app\models\User;
 use cs\base\BaseController;
 use cs\web\Exception;
@@ -70,6 +70,27 @@ class SiteController extends BaseController
     public function actionIn()
     {
         return $this->render();
+    }
+
+    public function actionArticles()
+    {
+        return $this->render();
+    }
+
+    public function actionArticle($year, $month, $day, $id)
+    {
+        $item = Article::find([
+            'id_string' => $id,
+            'date'      => $year . $month . $day
+        ]);
+        if (is_null($item)) {
+            throw new Exception('Нет такой статьи');
+        }
+        $item->incViewCounter();
+
+        return $this->render([
+            'item' => $item,
+        ]);
     }
 
     public function actionOut()
