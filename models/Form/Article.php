@@ -153,7 +153,7 @@ class Article extends \cs\base\BaseForm
                 return $fields;
             }
         ]);
-
+        VarDumper::dump($row);
         $item = \app\models\Article::find($row['id']);
         $fields = [];
         if ($this->is_add_image) {
