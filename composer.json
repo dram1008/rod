@@ -1,8 +1,8 @@
 {
-    "name": "yiisoft/yii2-app-basic",
+    "name": "dram1008/rod",
     "description": "Yii 2 Basic Project Template",
     "keywords": ["yii2", "framework", "basic", "project template"],
-    "homepage": "http://www.yiiframework.com/",
+    "homepage": "http://rod.galaxysss.ru/",
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
@@ -41,7 +41,7 @@
             "type": "package",
             "package": {
                 "name": "dram1008/library",
-                "version": "1.1.4",
+                "version": "1.1.5",
                 "source": {
                     "url": "https://github.com/dram1008/library",
                     "type": "git",

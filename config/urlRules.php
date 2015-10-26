@@ -34,20 +34,19 @@ return [
     'diller'                                => 'site/diller',
 
 
-
     'in'                                    => 'site/in',
     'out'                                   => 'site/out',
-    'about'                                   => 'site/about',
+    'about'                                 => 'site/about',
     'trasfere'                              => 'site/trasfere',
 
     'buy/<id:\\d+>'                         => 'site/buy',
 
-    'admin/articleList'                                                                    => 'admin_article/index',
-    'admin/articleList/add'                                                                => 'admin_article/add',
-    'admin/articleList/addFromPage'                                                        => 'admin_article/add_from_page',
-    'admin/articleList/<id:\\d+>/delete'                                                   => 'admin_article/delete',
-    'admin/articleList/<id:\\d+>/edit'                                                     => 'admin_article/edit',
-    'admin/articleList/<id:\\d+>/subscribe'                                                => 'admin_article/subscribe',
+    'admin/articleList'                     => 'admin_article/index',
+    'admin/articleList/add'                 => 'admin_article/add',
+    'admin/articleList/addFromPage'         => 'admin_article/add_from_page',
+    'admin/articleList/<id:\\d+>/delete'    => 'admin_article/delete',
+    'admin/articleList/<id:\\d+>/edit'      => 'admin_article/edit',
+    'admin/articleList/<id:\\d+>/subscribe' => 'admin_article/subscribe',
 
 
     'admin/requests'                        => 'admin_requests/index',
