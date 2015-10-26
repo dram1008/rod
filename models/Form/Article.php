@@ -160,6 +160,8 @@ class Article extends \cs\base\BaseForm
         if (count($fields) > 0) {
             $item->update($fields);
         }
+
+        return true;
     }
 
 }
