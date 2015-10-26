@@ -101,6 +101,7 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                                 <?php if (Yii::$app->user->identity->isAdmin()) { ?>
                                     <li class="divider"></li>
                                     <li><a href="<?= \yii\helpers\Url::to(['admin_subscribe/index']) ?>">Рассылки</a></li>
+                                    <li><a href="<?= \yii\helpers\Url::to(['admin_article/index']) ?>">Статьи</a></li>
                                 <?php } ?>
 
                                 <li class="divider"></li>
