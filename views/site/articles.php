@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <?php foreach (\app\models\Article::query()->orderBy(['date_insert' => SORT_DESC])->all() as $item) { ?>
     <p>
         <a href="<?= (new \app\models\Article($item))->getLink() ?>">
-            <?= $item['name'] ?>
+            <?= $item['header'] ?>
         </a>
     </p>
 <?php
