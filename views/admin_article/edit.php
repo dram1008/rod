@@ -39,7 +39,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 <?= $form->field($model, 'image')->label('Картинка')->widget('cs\Widget\FileUpload2\FileUpload') ?>
                 <?= $form->field($model, 'tree_node_id_mask')->label('Категории')->widget('cs\Widget\CheckBoxTreeMask\CheckBoxTreeMask', [
                     'tableName' => 'rod_article_tree',
-                    'select'    => 'id, header as name',
                 ]) ?>
 
                 <hr>
