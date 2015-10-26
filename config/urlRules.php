@@ -13,6 +13,12 @@ return [
 
     'captcha'                               => 'site/captcha',
 
+
+    'checkBoxTreeMask/add'                  => 'check_box_tree_mask/add',
+    'checkBoxTreeMask/addInto'              => 'check_box_tree_mask/add_into',
+    'checkBoxTreeMask/delete'               => 'check_box_tree_mask/delete',
+
+    'upload/upload'                         => 'upload/upload',
     'upload/HtmlContent2'                   => 'html_content/upload',
 
     'admin/subscribe'                       => 'admin_subscribe/index',

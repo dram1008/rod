@@ -91,6 +91,11 @@ $config = [
             ],
         ],
         'db'           => require(__DIR__ . '/db.php'),
+        'controllerMap' => [
+            'upload'              => 'cs\Widget\FileUploadMany\UploadController',
+            'html_content'        => 'cs\Widget\HtmlContent\Controller',
+            'check_box_tree_mask' => 'cs\Widget\CheckBoxTreeMask\Controller',
+        ],
     ],
     'params'     => $params,
     'controllerMap' => [
