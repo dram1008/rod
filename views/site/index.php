@@ -15,13 +15,6 @@ $this->registerJs("$('.carousel').carousel()");
     margin-bottom: 60px;
 ">
        <!-- Indicators -->
-<!--        <ol class="carousel-indicators">-->
-<!--            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
-<!--            <li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
-<!--            <li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
-<!--            <li data-target="#carousel-example-generic" data-slide-to="3"></li>-->
-<!--            <li data-target="#carousel-example-generic" data-slide-to="4"></li>-->
-<!--        </ol>-->
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
@@ -222,9 +215,9 @@ JS
     <hr>
     <?= $this->render('../blocks/share', [
         'url'         => \yii\helpers\Url::current([], true),
-        'image'       => \yii\helpers\Url::to('/images/controller/site/index/3.jpg', true),
-        'title'       => 'Купить генератор Теслы',
-        'description' => 'Электрогенератор вырабатывает электроэнергию, не потребляя какого-либо топлива. Время работы не ограничено. Не нужно ветра, солнца, воды и т.п.',
+        'image'       => \yii\helpers\Url::to('/images/controller/site/index/0.jpg', true),
+        'title'       => 'Агентство Сохранения Рода',
+        'description' => 'Агентство, предоставляющее услуги сопровождения души в тонкий мир и воссоединение с Родом Небесным, консалтинговые услуги по действиям в промежуточном состоянии между уходом и приходом на Землю, и здоровые роды на Земле по законам космоса.',
     ]) ?>
 
 </div>
