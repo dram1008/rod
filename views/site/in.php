@@ -59,7 +59,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 https://vk.com/zoya_borisova
 
                 http://vk.com/club52645074
-
+                http://www.domrebenok.ru/blog/orgazmicheskie-rody/
             </p>
 
             <?php $this->registerJs("$('.buttonOrder').tooltip()") ?>
