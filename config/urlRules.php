@@ -45,6 +45,7 @@ return [
     'in'                                                           => 'site/in',
     'out'                                                          => 'site/out',
     'about'                                                        => 'site/about',
+    'comunity'                                                     => 'site/comunity',
     'trasfere'                                                     => 'site/trasfere',
 
     'buy/<id:\\d+>'                                                => 'site/buy',

@@ -44,6 +44,7 @@ class Profile extends BaseForm
     public $birth_town;
     public $zvezdnoe;
     public $referal_code;
+    public $mission;
 
     public $subscribe_is_news;
     public $subscribe_is_site_update;

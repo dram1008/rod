@@ -14,15 +14,24 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-contact">
     <h1 class="page-header"><?= Html::encode($this->title) ?></h1>
 
-<?php foreach (\app\models\Article::query()->orderBy(['date_insert' => SORT_DESC])->all() as $item) { ?>
-    <p>
-        <a href="<?= (new \app\models\Article($item))->getLink() ?>">
-            <?= $item['header'] ?>
-        </a>
-    </p>
-<?php
-}
-?>
+    <?php foreach (\app\models\Article::query()->orderBy(['date_insert' => SORT_DESC])->all() as $item) { ?>
+        <?php $article = new \app\models\Article($item) ?>
+        <div class="row">
+            <div class="col-lg-4">
+                <a href="<?= $article->getLink() ?>">
+                    <img src="<?= $article->getImage() ?>" class="thumbnail" width="100%"/>
+                </a>
+            </div>
+            <div class="col-lg-8">
+                <h3 class="page-header"><?= $item['header'] ?></h3>
+                <p><?= $item['description'] ?></p>
+            </div>
+
+        </div>
+    <?php
+    }
+    ?>
+
 
 
     <hr>

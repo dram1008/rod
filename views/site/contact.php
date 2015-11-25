@@ -16,30 +16,18 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <p><img src="/images/controller/site/contact/contact.jpg" width="100%" class="thumbnail"/></p>
 
-    <p class="lead">
-        Земля <span class="glyphicon glyphicon-chevron-right">
-            Россия             <span class="glyphicon glyphicon-chevron-right">
-                Москва <span class="glyphicon glyphicon-chevron-right">
-                    Moscow City <span class="glyphicon glyphicon-chevron-right">
-                        Башня Эволюция</p>
+    <div class="col-lg-8 col-lg-offset-2">
+        <p>Сейчас мы трудимся в Москве и Московской области</p>
 
-    <div class="jumbotron">
-        <p>rod@galaxysss.ru</p>
+        <div class="jumbotron">
+            <p>+7-925-237-45-01<br>
+                +7-926-524-90-91<br>
+                rod@galaxysss.ru</p>
+
+        </div>
     </div>
-    <?=
 
-    (new \app\services\GoogleMaps())->map([
-        'width'     => '100%',
-        'height'    => '400',
-        'pointList' => [[
-            'lng'         => '37.541718',
-            'lat'         => '55.748577',
-            'name'        => 'Московский офис',
-            'description' => 'Земля, Россия, Москва, Moscow City, Башня Эволюция',
-            'image'       => '',
-            'url'         => '',
-        ]],
-    ]) ?>
+
 
     <hr>
     <?= $this->render('../blocks/share', [

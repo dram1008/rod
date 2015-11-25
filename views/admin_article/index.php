@@ -70,14 +70,7 @@ JS
             <!-- Split button -->
             <div class="btn-group">
                 <a href="<?= Url::to(['admin_article/add'])?>" class="btn btn-default">Добавить</a>
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <span class="caret"></span>
-                    <span class="sr-only">Toggle Dropdown</span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="<?= Url::to(['admin_article/add_from_page', 'page' => 'youtube'])?>">Добавить с YouTube</a></li>
-                    <li><a href="<?= Url::to(['admin_article/add_from_page', 'page' => 'verhosvet'])?>">Добавить с Verhosvet</a></li>
-                </ul>
+
             </div>
         </div>
     </div>

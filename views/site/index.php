@@ -107,6 +107,10 @@ $this->registerJs("$('.carousel').carousel()");
         if (!isset(Yii::$app->request->cookies['subscribeIsStarted'])) {
             $isShowForm = true;
         }
+    } else {
+        if (Yii::$app->user->identity->getField('subscribe_is_rod', 0) == 0) {
+            $isShowForm = true;
+        }
     }
 
     if ($isShowForm) {
@@ -116,7 +120,7 @@ $this->registerJs("$('.carousel').carousel()");
             <div class="col-lg-4 col-lg-offset-4">
                 <?php
                 $this->registerJs(<<<JS
-// форма подписки
+    // форма подписки
     {
         function setCookie (name, value, expires, path, domain, secure) {
             document.cookie = name + "=" + escape(value) +

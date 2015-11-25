@@ -58,9 +58,12 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                     'items'   => [
                         ['label' => 'О нас', 'url' => ['site/about']],
                         ['label' => 'Статьи', 'url' => ['site/articles']],
-                        ['label' => 'Уход', 'url' => ['site/out']],
-                        ['label' => 'Переход', 'url' => ['site/trasfere']],
-                        ['label' => 'Приход', 'url' => ['site/in']],
+                        ['label' => 'Услуги', 'items' => [
+                            ['label' => 'Уход', 'url' => ['site/out']],
+                            ['label' => 'Переход', 'url' => ['site/trasfere']],
+                            ['label' => 'Приход', 'url' => ['site/in']],
+                        ]],
+//                        ['label' => 'Команда', 'url' => ['site/comunity']],
                         ['label' => 'Сотрудничество', 'url' => ['site/diller']],
                         ['label' => 'Контакты', 'url' => ['site/contact']],
                     ],
