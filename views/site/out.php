@@ -78,6 +78,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 - Переезд на Священное Место.<br>
 
                 - Проведение ритуала.
+
+                http://vk.com/club52645074
             </p>
             <?php $this->registerJs("$('.buttonOrder').tooltip()")?>
             <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
