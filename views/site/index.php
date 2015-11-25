@@ -20,37 +20,21 @@ $this->registerJs("$('.carousel').carousel()");
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="/images/controller/site/index/0.jpg" alt="...">
-
-                <div class="carousel-caption">
-
-                </div>
             </div>
             <div class="item">
                 <img src="/images/controller/site/index/1.jpg" alt="...">
-
-                <div class="carousel-caption">
-
-                </div>
             </div>
             <div class="item">
                 <img src="/images/controller/site/index/2.jpg" alt="...">
-
-                <div class="carousel-caption">
-                </div>
             </div>
             <div class="item">
                 <img src="/images/controller/site/index/3.jpg" alt="...">
-
-                <div class="carousel-caption">
-
-                </div>
+            </div>
+            <div class="item">
+                <img src="/images/controller/site/index/6.jpg" alt="...">
             </div>
             <div class="item">
                 <img src="/images/controller/site/index/4.jpg" alt="...">
-
-                <div class="carousel-caption">
-
-                </div>
             </div>
         </div>
 
