@@ -57,6 +57,9 @@ $this->params['breadcrumbs'][] = $this->title;
             </p>
             <p>
                 https://vk.com/zoya_borisova
+
+                http://vk.com/club52645074
+
             </p>
 
             <?php $this->registerJs("$('.buttonOrder').tooltip()") ?>
