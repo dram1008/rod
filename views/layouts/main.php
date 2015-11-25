@@ -98,7 +98,6 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="<?= \yii\helpers\Url::to(['cabinet/requests']) ?>">Мои заказы</a></li>
                                 <li><a href="<?= \yii\helpers\Url::to(['cabinet/profile']) ?>">Мой профиль</a></li>
 
                                 <?php if (Yii::$app->user->identity->isAdmin()) { ?>
