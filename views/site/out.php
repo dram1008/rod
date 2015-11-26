@@ -85,6 +85,8 @@ $this->params['breadcrumbs'][] = $this->title;
                 100 000 руб.*
             </a>
             <p>* возможен бартер</p>
+
+            <iframe width="100%" height="315" class="thumbnail" src="https://www.youtube.com/embed/Xm-SXRdBLGo" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 
