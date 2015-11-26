@@ -20,10 +20,12 @@ $this->title = $item->getField('header');
 
 
     <hr>
-    <?= $this->render('../blocks/share', [
+    <?=
+
+    $this->render('../blocks/share', [
         'url'         => \yii\helpers\Url::current([], true),
-        'image'       => \yii\helpers\Url::to('/images/controller/site/index/3.jpg', true),
+        'image'       => \cs\Widget\FileUpload2\FileUpload::getOriginal(\yii\helpers\Url::to($item->getImage(), true), false),
         'title'       => $item->getField('header'),
-        'description' => 'Электрогенератор вырабатывает электроэнергию, не потребляя какого-либо топлива. Время работы не ограничено. Не нужно ветра, солнца, воды и т.п.',
+        'description' => $item->getField('description')
     ]) ?>
 </div>
