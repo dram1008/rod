@@ -30,12 +30,12 @@ $this->params['breadcrumbs'][] = $this->title;
                    class="btn btn-default btn-xs">https://vk.com/zoya_borisova</a>
             </p>
             <p>
-                <a href="https://vk.com/zoya_borisova"
+                <a href="https://vk.com/club52645074"
                    target="_blank"
                    class="btn btn-default btn-xs">http://vk.com/club52645074</a>
             </p>
             <p>
-                <a href="https://vk.com/zoya_borisova"
+                <a href="http://www.domrebenok.ru/blog/orgazmicheskie-rody/"
                    target="_blank"
                    class="btn btn-default btn-xs">http://www.domrebenok.ru/blog/orgazmicheskie-rody/</a>
             </p>
