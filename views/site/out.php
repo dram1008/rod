@@ -8,11 +8,11 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'Отправление к РОДУ НЕБЕСНОМУ';
+$this->title = 'Отправление к РОДУ НЕБЕСНОМУ. Заказать';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
-    <h1 class="page-header"><?= Html::encode($this->title) ?></h1>
+    <h1 class="page-header">Отправление к РОДУ НЕБЕСНОМУ</h1>
 
     <p><img src="/images/controller/site/out/header.jpg" width="100%" class="thumbnail"/></p>
 
@@ -95,7 +95,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= $this->render('../blocks/share', [
         'url'         => \yii\helpers\Url::current([], true),
         'image'       => \yii\helpers\Url::to('/images/controller/site/out/1.jpg', true),
-        'title'       => 'Отправление к РОДУ НЕБЕСНОМУ. Обряд кРОДирование',
+        'title'       => 'Отправление к РОДУ НЕБЕСНОМУ. Обряд кРОДирование. Заказать',
         'description' => 'Ритуал «Отправление к РОДУ НЕБЕСНОМУ» - это процедура воссоединения души умершего человека с его Родом
                 Небесным. Суть ее заключается в том, что тело сжигается на костре, на чистом воздухе на чистой Земле с
                 направлением души к предкам и Роду Небесному.',
