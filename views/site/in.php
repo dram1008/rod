@@ -73,7 +73,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= $this->render('../blocks/share', [
         'url'         => \yii\helpers\Url::current([], true),
         'image'       => \yii\helpers\Url::to('/images/controller/site/index/3.jpg', true),
-        'title'       => 'Купить генератор Теслы',
-        'description' => 'Электрогенератор вырабатывает электроэнергию, не потребляя какого-либо топлива. Время работы не ограничено. Не нужно ветра, солнца, воды и т.п.',
+        'title'       => 'Приход души. Здоровые роды',
+        'description' => 'Приход души. Здоровые роды',
     ]) ?>
 </div>
