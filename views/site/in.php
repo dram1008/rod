@@ -25,13 +25,19 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
             <p>
-                <a href="https://vk.com/zoya_borisova" class="btn btn-default btn-xs">https://vk.com/zoya_borisova</a>
+                <a href="https://vk.com/zoya_borisova"
+                   target="_blank"
+                   class="btn btn-default btn-xs">https://vk.com/zoya_borisova</a>
             </p>
             <p>
-                <a href="https://vk.com/zoya_borisova" class="btn btn-default btn-xs">http://vk.com/club52645074</a>
+                <a href="https://vk.com/zoya_borisova"
+                   target="_blank"
+                   class="btn btn-default btn-xs">http://vk.com/club52645074</a>
             </p>
             <p>
-                <a href="https://vk.com/zoya_borisova" class="btn btn-default btn-xs">http://www.domrebenok.ru/blog/orgazmicheskie-rody/</a>
+                <a href="https://vk.com/zoya_borisova"
+                   target="_blank"
+                   class="btn btn-default btn-xs">http://www.domrebenok.ru/blog/orgazmicheskie-rody/</a>
             </p>
 
             <?php $this->registerJs("$('.buttonOrder').tooltip()") ?>
