@@ -162,13 +162,12 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter32845652 = new Ya.Metrika({
-                    id:32845652,
+                w.yaCounter33868184 = new Ya.Metrika({
+                    id:33868184,
                     clickmap:true,
                     trackLinks:true,
                     accurateTrackBounce:true,
-                    webvisor:true,
-                    trackHash:true
+                    webvisor:true
                 });
             } catch(e) { }
         });
@@ -185,7 +184,7 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/32845652" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/33868184" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 </body>
 </html>
