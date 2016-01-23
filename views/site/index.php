@@ -59,8 +59,7 @@ $this->registerJs("$('.carousel').carousel()");
             <h2 class="center-block text-center">Уход души</h2>
 
             <p class="center-block text-center">Ритуал «Отправление к РОДУ НЕБЕСНОМУ» - это процедура воссоединения души
-                умершего человека с его Родом Небесным. Суть ее заключается в том, что тело сжигается на костре, на
-                чистом воздухе на чистой Земле с направлением души к предкам и Роду Небесному.</p>
+                умершего человека с его Родом Небесным</p>
         </div>
         <div class="col-lg-4">
             <a href="<?= \yii\helpers\Url::to(['site/trasfere']) ?>">
@@ -82,6 +81,18 @@ $this->registerJs("$('.carousel').carousel()");
             <h2 class="center-block text-center">Приход души</h2>
 
             <p class="center-block text-center">Призывание Великой Души. Здоровые роды на Земле по законам космоса.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <a href="<?= \yii\helpers\Url::to(['site/union']) ?>">
+                <img src="/images/controller/site/index/s3.jpg" class="img-circle center-block" width="140"
+                     height="140"/>
+            </a>
+
+            <h2 class="center-block text-center">Союз Богов</h2>
+
+            <p class="center-block text-center">Свадьба ведическая, Славянская и Космическая</p>
         </div>
     </div>
 

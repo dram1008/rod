@@ -44,6 +44,7 @@ return [
 
     'in'                                                           => 'site/in',
     'out'                                                          => 'site/out',
+    'union'                                                          => 'site/union',
     'about'                                                        => 'site/about',
     'comunity'                                                     => 'site/comunity',
     'trasfere'                                                     => 'site/trasfere',
