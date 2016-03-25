@@ -9,7 +9,6 @@ use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
 $this->title = 'Отправление к РОДУ НЕБЕСНОМУ. Заказать';
-$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
     <h1 class="page-header">Отправление к РОДУ НЕБЕСНОМУ</h1>
@@ -128,7 +127,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <p>Оформление договора на погребение</p>
             <p>
-                <a href="/contact" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;margin-bottom: 50px;margin-top: 50px;">
+                <a href="/contact" class="btn btn-success btn-lg text-center buttonOrder" title="Звоните" style="width: 100%;margin-bottom: 50px;margin-top: 50px;">
                 от 15 000 руб.
                 </a>
             </p>
@@ -151,6 +150,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <p>
                 <iframe width="100%" height="349" src="https://www.youtube.com/embed/wvtj_eaDQt4" frameborder="0" allowfullscreen></iframe>
+            </p>
+            <p>
+                <a href="/contact" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;margin-bottom: 50px;margin-top: 50px;">
+                    Позвонить
+                </a>
             </p>
 
         </div>
