@@ -81,7 +81,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             </p>
             <?php $this->registerJs("$('.buttonOrder').tooltip()")?>
-            <a href="#" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
+            <a href="/contact" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
                 100 000 руб.*
             </a>
             <p>* возможен бартер</p>
