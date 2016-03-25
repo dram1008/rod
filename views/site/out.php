@@ -71,7 +71,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             </p>
             <?php $this->registerJs("$('.buttonOrder').tooltip()")?>
-            <a href="/contact" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;">
+            <a href="/contact" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;margin-bottom: 50px;margin-top: 50px;">
                 100 000 руб.*
             </a>
             <p>* возможен бартер или оформление договора на погребение</p>
@@ -125,6 +125,14 @@ $this->params['breadcrumbs'][] = $this->title;
             3.	Это гарантирует, что мы сделаем ритуал правильным образом по старославянским традициям.<br>
             4.	Мы организовываем праздник, а не траурную церемонию, а значит повышаем астральные вибрации пространства.
             </p>
+
+            <p>Оформление договора на погребение</p>
+            <p>
+                <a href="/contact" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;margin-bottom: 50px;margin-top: 50px;">
+                от 15 000 руб.
+                </a>
+            </p>
+
             <p>
             Для того чтобы после смерти похоронили именно мы вас, вам необходимо своим родственникам сообщить, что у вас оформлена договор на случай смерти и что деньги на похороны уже есть ими могут воспользоваться Агентство Сохранения Рода для проведения именно процедуры сожжения по традиции.
             </p>
