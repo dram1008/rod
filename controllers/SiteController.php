@@ -77,15 +77,6 @@ class SiteController extends BaseController
         return $this->render();
     }
 
-    public function actionComunity()
-    {
-        return $this->render([]);
-    }
-
-    public function actionUnion()
-    {
-        return $this->render([]);
-    }
 
     public function actionArticle($year, $month, $day, $id)
     {
@@ -104,6 +95,11 @@ class SiteController extends BaseController
     }
 
     public function actionOut()
+    {
+        return $this->render();
+    }
+
+    public function actionOut_contract()
     {
         return $this->render();
     }
