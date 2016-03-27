@@ -52,6 +52,13 @@ $this->title = 'Договор на ритуал Сжигание тела. Га
             - возможность получить коррекцию Рода по уникальной авторской методике от Максима Кравцова (за дополнительную плату)
             </p>
             <p class="lead">
+                Сейчас мы трудимся в Москве и Московской области<br>
+                <br>
+                +7-925-237-45-01<br>
+                +7-926-524-90-91<br>
+                rod@galaxysss.ru
+            </p>
+            <p class="lead">
                 <a href="/contact" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;margin-bottom: 50px;margin-top: 50px;">
                     Позвонить
                 </a>
