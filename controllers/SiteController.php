@@ -77,7 +77,6 @@ class SiteController extends BaseController
         return $this->render();
     }
 
-
     public function actionArticle($year, $month, $day, $id)
     {
         $item = Article::find([
@@ -95,6 +94,11 @@ class SiteController extends BaseController
     }
 
     public function actionOut()
+    {
+        return $this->render();
+    }
+
+    public function actionLogo()
     {
         return $this->render();
     }

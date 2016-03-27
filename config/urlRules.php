@@ -44,8 +44,9 @@ return [
 
     'in'                                                           => 'site/in',
     'out'                                                          => 'site/out',
-    'out/contract'                                                          => 'site/out_contract',
-    'union'                                                          => 'site/union',
+    'logo'                                                         => 'site/logo',
+    'out/contract'                                                 => 'site/out_contract',
+    'union'                                                        => 'site/union',
     'about'                                                        => 'site/about',
     'comunity'                                                     => 'site/comunity',
     'trasfere'                                                     => 'site/trasfere',

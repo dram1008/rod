@@ -78,6 +78,7 @@ $this->title = 'Отправление к РОДУ НЕБЕСНОМУ. Зака�
 
 
             <iframe width="100%" height="315" class="thumbnail" src="https://www.youtube.com/embed/Xm-SXRdBLGo" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="315" class="thumbnail" src="https://www.youtube.com/embed/GXK7UtNRtk0" frameborder="0" allowfullscreen></iframe>
 
             <p>
                 Позаботьтесь о правильном уходе своей души заранее!
