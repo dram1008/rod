@@ -2,12 +2,12 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'ПриРоде';
+$this->title = 'Главная';
 $this->registerJs("$('.carousel').carousel()");
 ?>
 <div class="site-index">
-    <h1 class="page-header"><?= \yii\bootstrap\Html::encode($this->title) ?>
-        <small>Агентство Сохранения Рода</small>
+    <h1 class="page-header">
+        Агентство Сохранения Рода
     </h1>
 
     <?php $this->registerJs("$('.carousel').carousel()"); ?>
