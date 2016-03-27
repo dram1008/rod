@@ -12,7 +12,7 @@ $this->title = 'О нас';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
-    <h1 class="page-header"><?= Html::encode($this->title) ?></h1>
+    <h1 class="page-header text-center"><?= Html::encode($this->title) ?></h1>
 
     <p><img src="/images/controller/site/about/header.jpg" width="100%" class="thumbnail"/></p>
 
