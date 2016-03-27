@@ -86,7 +86,7 @@ $this->registerJs("$('.carousel').carousel()");
     <div class="row">
         <div class="col-lg-4 col-lg-offset-4">
             <a href="<?= \yii\helpers\Url::to(['site/union']) ?>">
-                <img src="/images/controller/site/index/s3.jpg" class="img-circle center-block" width="140"
+                <img src="/images/controller/site/index/s4.jpg" class="img-circle center-block" width="140"
                      height="140"/>
             </a>
 
