@@ -6,7 +6,7 @@ $this->title = 'Главная';
 $this->registerJs("$('.carousel').carousel()");
 ?>
 <div class="site-index">
-    <h1 class="page-header">
+    <h1 class="page-header text-center">
         Агентство Сохранения Рода
     </h1>
 
