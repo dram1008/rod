@@ -81,6 +81,11 @@ $this->title = 'Отправление к РОДУ НЕБЕСНОМУ. Зака�
             <iframe width="100%" height="315" class="thumbnail" src="https://www.youtube.com/embed/GXK7UtNRtk0" frameborder="0" allowfullscreen></iframe>
 
             <p>
+                <a href="https://www.youtube.com/results?search_query=%D0%BA%D1%80%D0%BE%D0%B4%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">
+                    Еще видео
+                </a>
+            </p>
+            <p>
                 Позаботьтесь о правильном уходе своей души заранее!
             </p>
             <p>
