@@ -70,6 +70,17 @@ $this->title = 'Отправление к РОДУ НЕБЕСНОМУ. Зака�
 
             </p>
             <?php $this->registerJs("$('.buttonOrder').tooltip()")?>
+            <p class="text-center">
+                <?php
+                $this->registerJs(<<<JS
+    $('#garantyButton').click(function() {
+        $('#myModal').modal('show');
+    });
+JS
+);
+                ?>
+                <img src="/images/controller/site/out/garanty.jpg" width="400" class="img-center" id="garantyButton" style="border-radius: 20px;" role="button"/>
+            </p>
             <a href="/contact" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;margin-bottom: 50px;margin-top: 50px;">
                 от 15 000 руб.*
             </a>
@@ -179,4 +190,20 @@ $this->title = 'Отправление к РОДУ НЕБЕСНОМУ. Зака�
                 Небесным. Суть ее заключается в том, что тело сжигается на костре, на чистом воздухе на чистой Земле с
                 направлением души к предкам и Роду Небесному.',
     ]) ?>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Гарантия на вознесение</h4>
+            </div>
+            <div class="modal-body">
+                <img src="/images/controller/site/out/garanty.jpg" width="100%" class="img-center" style="border-radius: 20px;" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
 </div>
