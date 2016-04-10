@@ -239,7 +239,12 @@ class SiteController extends BaseController
     public function actionLog()
     {
         return $this->render([
-            'log' => file_get_contents(Yii::getAlias('@runtime/logs/app.log')),
+            'log' => LogReader::file('@runtime/logs/app.log')->readLast(
+                ArrayHelper::merge(
+                    ['maxStrings' => 10],
+                    Yii::$app->request->get()
+                )
+            ),
         ]);
     }
 
