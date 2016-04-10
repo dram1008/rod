@@ -54,7 +54,7 @@
             "type": "package",
             "package": {
                 "name": "dram1008/library",
-                "version": "1.1.5",
+                "version": "1.2.0",
                 "source": {
                     "url": "https://github.com/dram1008/library",
                     "type": "git",
