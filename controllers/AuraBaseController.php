@@ -33,7 +33,7 @@ class AuraBaseController extends BaseController
                         'matchCallback' => function() {
                             /** @var \app\models\User $user */
                             $user = \Yii::$app->user->identity;
-                            VarDumper::dump($user->hasRole(User::USER_ROLE_ADMIN_AURA));
+                            VarDumper::dump($user->getRoles());
                             return $user->hasRole(User::USER_ROLE_ADMIN_AURA);
                         }
                     ],
