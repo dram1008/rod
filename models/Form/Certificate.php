@@ -44,7 +44,7 @@ class Certificate extends \cs\base\BaseForm
                 0,
                 'string', ['length' => 11],
                 'widget' => [MaskedInput::className(), [
-                          'mask' => '9999 999999',
+                    'mask' => '9999 999999',
                 ]]
             ],
             [
