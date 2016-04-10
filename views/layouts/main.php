@@ -10,8 +10,8 @@ use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 
 AppAsset::register($this);
-$this->registerMetaTag(['name' => 'keywords', 'content' => 'Генератор Теслы Купить, Арендовать, Бестопливный генератор, Вечный двигатель, Диллерская программа, Доставка в любую точку планеты, Сервисное обслуживание']);
-$this->registerMetaTag(['name' => 'description', 'content' => 'Генератор Теслы Купить, Арендовать, Бестопливный генератор, Вечный двигатель, Диллерская программа, Доставка в любую точку планеты, Сервисное обслуживание']);
+$this->registerMetaTag(['name' => 'keywords', 'content' => 'Кродирование']);
+$this->registerMetaTag(['name' => 'description', 'content' => 'Кродирование']);
 $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
 
 ?>
@@ -72,6 +72,10 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
 
                 <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
+                            <?php
+                            /** @var \app\models\User $u */
+                            $u = Yii::$app->user->identity;
+                            ?>
                             <?php if (Yii::$app->user->isGuest) { ?>
                                 <a
                                     href="<?= \yii\helpers\Url::to(['site/login'])?>"
@@ -91,7 +95,7 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                                 role="button"
                                 style="padding: 5px 10px 5px 10px;"
                                 >
-                                <?= Html::img(Yii::$app->user->identity->getAvatar(), [
+                                <?= Html::img($u->getAvatar(), [
                                     'height' => '40px',
                                     'class'  => 'img-circle'
                                 ]) ?>
@@ -100,10 +104,12 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="<?= \yii\helpers\Url::to(['cabinet/profile']) ?>">Мой профиль</a></li>
 
-                                <?php if (Yii::$app->user->identity->isAdmin()) { ?>
+                                <?php if ($u->isAdmin()) { ?>
                                     <li class="divider"></li>
                                     <li><a href="<?= \yii\helpers\Url::to(['admin_subscribe/index']) ?>">Рассылки</a></li>
                                     <li><a href="<?= \yii\helpers\Url::to(['admin_article/index']) ?>">Статьи</a></li>
+                                <?php } ?>
+                                <?php if ($u->hasRole(\app\models\User::USER_ROLE_ADMIN_AURA)) { ?>
                                     <li><a href="/admin/certificates">Сертификаты</a></li>
                                 <?php } ?>
 
