@@ -73,7 +73,7 @@ $config = [
                 ],
                 [
                     'class'      => 'yii\log\DbTarget',
-                    'categories' => ['tg\\*'],
+                    'categories' => ['rod\\*'],
                 ],
                 [
                     'class'      => 'yii\log\EmailTarget',
@@ -85,7 +85,7 @@ $config = [
                     'message'    => [
                         'from'    => ['admin@galaxysss.ru'],
                         'to'      => ['god@galaxysss.ru'],
-                        'subject' => 'TESLA.GALAXYSSS.RU ERROR',
+                        'subject' => 'ROD.GALAXYSSS.RU ERROR',
                     ],
                 ],
             ],
