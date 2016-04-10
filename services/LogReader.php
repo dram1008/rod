@@ -110,7 +110,6 @@ class LogReader
                 }
             }
         } while (!$ret['isLast']);
-        VarDumper::dump($items);
 
         return $items;
     }

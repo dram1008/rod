@@ -69,6 +69,7 @@ $config = [
                         'error',
                         'warning',
                     ],
+                    'except'      => ['yii\web\HttpException:404'],
                     'maxLogFiles' => 1,
                 ],
                 [
