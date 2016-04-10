@@ -5,7 +5,7 @@ use app\services\GsssHtml;
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 
-$this->title = 'Статьи';
+$this->title = 'Гарантии';
 
 $this->registerJs(<<<JS
 $('.buttonDelete').click(function (e) {
@@ -32,7 +32,7 @@ JS
 ?>
 
 <div class="container">
-    <h1 class="page-header">Статьи</h1>
+    <h1 class="page-header">Гарантии</h1>
 
     <a href="/admin/certificates/add" class="btn btn-default">Добавить</a>
     <?= \yii\grid\GridView::widget([
