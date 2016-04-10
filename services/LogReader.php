@@ -89,7 +89,6 @@ class LogReader
         $data = file_get_contents($this->file);
         $array = explode("\n", $data);
         $i = $this->findLast($array);
-        VarDumper::dump($i);
         $first = ArrayHelper::getValue($options, 'first', 0);
         $items = [];
         $d = 0;
@@ -111,6 +110,7 @@ class LogReader
                 }
             }
         } while (!$ret['isLast']);
+        VarDumper::dump($items);
 
         return $items;
     }
