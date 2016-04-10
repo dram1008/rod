@@ -60,6 +60,11 @@ return [
     'admin/articleList/<id:\\d+>/edit'                             => 'admin_article/edit',
     'admin/articleList/<id:\\d+>/subscribe'                        => 'admin_article/subscribe',
 
+    'admin/certificates'                                            => 'admin_certificates/index',
+    'admin/certificates/add'                                        => 'admin_certificates/add',
+    'admin/certificates/<id:\\d+>/delete'                           => 'admin_certificates/delete',
+    'admin/certificates/<id:\\d+>/edit'                             => 'admin_certificates/edit',
+
 
     'admin/requests'                                               => 'admin_requests/index',
     'admin/requests/<id:\\d+>/view'                                => 'admin_requests/view',

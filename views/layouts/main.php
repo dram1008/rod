@@ -104,6 +104,7 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                                     <li class="divider"></li>
                                     <li><a href="<?= \yii\helpers\Url::to(['admin_subscribe/index']) ?>">Рассылки</a></li>
                                     <li><a href="<?= \yii\helpers\Url::to(['admin_article/index']) ?>">Статьи</a></li>
+                                    <li><a href="/admin/certificates">Сертификаты</a></li>
                                 <?php } ?>
 
                                 <li class="divider"></li>
