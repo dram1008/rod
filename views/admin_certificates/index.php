@@ -29,7 +29,6 @@ $('.buttonDelete').click(function (e) {
 
 JS
 );
-\cs\services\VarDumper::dump(1);
 ?>
 
 <div class="container">
