@@ -86,10 +86,10 @@ class LogReader
     public function readLast($options = [])
     {
         $maxStrings = ArrayHelper::getValue($options, 'maxStrings', null);
-        VarDumper::dump($this->file);
         $data = file_get_contents($this->file);
         $array = explode("\n", $data);
         $i = $this->findLast($array);
+        VarDumper::dump($i);
         $first = ArrayHelper::getValue($options, 'first', 0);
         $items = [];
         $d = 0;
