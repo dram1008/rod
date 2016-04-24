@@ -50,7 +50,7 @@ $this->registerJs("$('.carousel').carousel()");
     </div>
 
     <div class="row">
-        <div class="col-lg-4">
+        <div class="col-xs-4">
             <a href="<?= \yii\helpers\Url::to(['site/out']) ?>">
                 <img src="/images/controller/site/index/s1.jpg" class="img-circle center-block" width="140"
                      height="140"/>
@@ -61,7 +61,7 @@ $this->registerJs("$('.carousel').carousel()");
             <p class="center-block text-center">Ритуал «Отправление к РОДУ НЕБЕСНОМУ» - это процедура воссоединения души
                 умершего человека с его Родом Небесным</p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-xs-4">
             <a href="<?= \yii\helpers\Url::to(['site/trasfere']) ?>">
                 <img src="/images/controller/site/index/s2.jpg" class="img-circle center-block" width="140"
                      height="140"/>
@@ -72,7 +72,7 @@ $this->registerJs("$('.carousel').carousel()");
             <p class="center-block text-center">Консалтинговые услуги по действиям в промежуточном состоянии между
                 уходом и приходом на Землю</p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-xs-4">
             <a href="<?= \yii\helpers\Url::to(['site/in']) ?>">
                 <img src="/images/controller/site/index/s3.jpg" class="img-circle center-block" width="140"
                      height="140"/>
@@ -84,7 +84,7 @@ $this->registerJs("$('.carousel').carousel()");
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-4 col-lg-offset-4">
+        <div class="col-xs-4 col-xs-offset-4">
             <a href="<?= \yii\helpers\Url::to(['site/union']) ?>">
                 <img src="/images/controller/site/index/s4.jpg" class="img-circle center-block" width="140"
                      height="140"/>
