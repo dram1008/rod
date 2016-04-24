@@ -26,11 +26,6 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
     <title><?= Html::encode($this->title) ?> :: Агентство Сохранения Рода</title>
     <link rel="shortcut icon" href="/images/ico.png">
     <?php $this->head() ?>
-    <style>
-        /*.container{*/
-            /*width:960px !important;*/
-        /*}*/
-    </style>
 </head>
 <body>
 <?php $this->beginBody() ?>
