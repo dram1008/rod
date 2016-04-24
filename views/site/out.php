@@ -79,7 +79,7 @@ $this->title = 'Отправление к РОДУ НЕБЕСНОМУ. Зака�
 JS
 );
                 ?>
-                <img src="/images/controller/site/out/garanty.jpg" width="400" class="img-center" id="garantyButton" style="border-radius: 20px;" role="button"/>
+                <img src="/images/controller/site/out/garanty.jpg" class="img-center" id="garantyButton" style="border-radius: 20px; width: 100%;max-width: 400px;" role="button"/>
             </p>
             <a href="/contact" class="btn btn-success btn-lg text-center buttonOrder" title="Заказать" style="width: 100%;margin-bottom: 50px;margin-top: 50px;">
                 от 15 000 руб.*
@@ -199,7 +199,7 @@ JS
                 <h4 class="modal-title" id="myModalLabel">Гарантия на вознесение</h4>
             </div>
             <div class="modal-body">
-                <img src="/images/controller/site/out/garanty.jpg" width="100%" class="img-center" style="border-radius: 20px;" />
+                <img src="/images/controller/site/out/garanty.jpg" class="img-center" style="border-radius: 20px; width: 100%;max-width: 400px;" />
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
