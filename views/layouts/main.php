@@ -63,7 +63,7 @@ $this->registerMetaTag(['name' => 'title', 'content' => $this->title]);
                             ['label' => 'Переход', 'url' => ['site/trasfere']],
                             ['label' => 'Приход', 'url' => ['site/in']],
                         ]],
-//                        ['label' => 'Команда', 'url' => ['site/comunity']],
+                        ['label' => 'Мастера', 'url' => ['masters/index']],
                         ['label' => 'Сотрудничество', 'url' => ['site/diller']],
                         ['label' => 'Контакты', 'url' => ['site/contact']],
                     ],

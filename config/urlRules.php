@@ -48,6 +48,8 @@ return [
     'out/contract'                                                 => 'site/out_contract',
     'union'                                                        => 'site/union',
     'about'                                                        => 'site/about',
+    'masters'                                                      => 'masters/index',
+    'masters/<master:\\w+>'                                        => 'masters/item',
     'comunity'                                                     => 'site/comunity',
     'trasfere'                                                     => 'site/trasfere',
 
@@ -60,10 +62,10 @@ return [
     'admin/articleList/<id:\\d+>/edit'                             => 'admin_article/edit',
     'admin/articleList/<id:\\d+>/subscribe'                        => 'admin_article/subscribe',
 
-    'admin/certificates'                                            => 'admin_certificates/index',
-    'admin/certificates/add'                                        => 'admin_certificates/add',
-    'admin/certificates/<id:\\d+>/delete'                           => 'admin_certificates/delete',
-    'admin/certificates/<id:\\d+>/edit'                             => 'admin_certificates/edit',
+    'admin/certificates'                                           => 'admin_certificates/index',
+    'admin/certificates/add'                                       => 'admin_certificates/add',
+    'admin/certificates/<id:\\d+>/delete'                          => 'admin_certificates/delete',
+    'admin/certificates/<id:\\d+>/edit'                            => 'admin_certificates/edit',
 
 
     'admin/requests'                                               => 'admin_requests/index',

@@ -22,6 +22,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="jumbotron">
             <p>+7-925-237-45-01<br>
                 +7-926-524-90-91<br>
+                +7-926-518-98-75<br>
                 rod@galaxysss.ru</p>
 
         </div>

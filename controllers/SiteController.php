@@ -250,6 +250,11 @@ class SiteController extends BaseController
         ]);
     }
 
+    public function actionMasters()
+    {
+        return $this->render([]);
+    }
+
     public function actionLog_db()
     {
         $query = Log::query()->orderBy(['log_time' => SORT_DESC]);
