@@ -13,12 +13,10 @@ $this->title = 'Мастера';
 
 <div class="row">
     <div class="col-sm-4">
-        <a href="<?= \yii\helpers\Url::to(['masters/item', 'master' => 'maks']) ?>">
             <img src="/images/controller/masters/index/bLWg6--nPQQ.jpg"
                  class="thumbnail" width="100%"
                 style="border-radius: 20px;"
                 />
-        </a>
 
         <div style="height: 200px;">
             <h2 class="center-block text-center">Максим Кравцов</h2>
@@ -26,12 +24,10 @@ $this->title = 'Мастера';
         </div>
     </div>
     <div class="col-sm-4">
-        <a href="<?= \yii\helpers\Url::to(['masters/item', 'master' => 'maks']) ?>">
             <img src="/images/controller/masters/index/12195120_10200972065380918_7501450503155675234_o.jpg"
                  class="thumbnail" width="100%"
                  style="border-radius: 20px;"
                 />
-        </a>
 
         <div style="height: 200px;">
             <h2 class="center-block text-center">Денис Валерьевич</h2>
@@ -39,12 +35,10 @@ $this->title = 'Мастера';
         </div>
     </div>
     <div class="col-sm-4">
-        <a href="<?= \yii\helpers\Url::to(['masters/item', 'master' => 'maks']) ?>">
             <img src="/images/controller/masters/index/12191372_961834657217928_6427958805132840409_o.jpg"
                  class="thumbnail" width="100%"
                  style="border-radius: 20px;"
                 />
-        </a>
         <div style="height: 200px;">
             <h2 class="center-block text-center">Святослав Архангельский</h2>
             <p class="center-block text-center">Жрец, Консультант по промежуточному состоянию</p>
@@ -53,12 +47,10 @@ $this->title = 'Мастера';
 </div>
 <div class="row">
     <div class="col-sm-4 col-sm-offset-4">
-        <a href="<?= \yii\helpers\Url::to(['masters/item', 'master' => 'maks']) ?>">
             <img src="/images/controller/site/index/s4.jpg"
                  class="thumbnail" width="100%"
                  style="border-radius: 20px;"
                  />
-        </a>
 
         <div style="height: 200px;">
             <h2 class="center-block text-center">Константин Александрович</h2>
