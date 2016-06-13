@@ -45,19 +45,6 @@ $this->title = 'Мастера';
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-sm-4 col-sm-offset-4">
-            <img src="/images/controller/site/index/s4.jpg"
-                 class="thumbnail" width="100%"
-                 style="border-radius: 20px;"
-                 />
-
-        <div style="height: 200px;">
-            <h2 class="center-block text-center">Константин Александрович</h2>
-            <p class="center-block text-center"></p>
-        </div>
-    </div>
-</div>
 
 
 
