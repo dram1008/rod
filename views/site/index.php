@@ -212,7 +212,7 @@ JS
                     </div>
                     <div class="form-group field-loginform-currency required">
                         <label class="control-label" for="loginform-password">Валюта:</label>
-                        <select name="currency"  class="control-label" >
+                        <select name="currency"  class="form-control" >
                             <option value="1">Рубль (RUB)</option>
                             <option value="2">Доллар (USD)</option>
                             <option value="3">Bitcoin (BTC)</option>
