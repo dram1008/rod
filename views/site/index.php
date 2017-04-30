@@ -199,31 +199,31 @@ JS
                         </form>
                     </div>
                 </div>
-                <form action="https://www.avatar-bank.com/merchant/index" method="post" role="form" target="_blank">
-                    <div class="form-group field-loginform-username required">
-                        <label class="control-label" for="loginform-username">Комментарий:</label>
-                        <input type="text" class="form-control" name="title">
-                        <input type="hidden" class="form-control" name="key" value="C6P30BsiRqCbTl9PkMsNgX6iFpGyiTlgGmNIhlzw">
-                        <input type="hidden" class="form-control" name="currency" value="BTC">
-                    </div>
-                    <div class="form-group field-loginform-password required">
-                        <label class="control-label" for="loginform-password">Сколько:</label>
-                        <input type="text" id="loginform-password" class="form-control" name="price">
-                    </div>
-                    <div class="form-group field-loginform-currency required">
-                        <label class="control-label" for="loginform-password">Валюта:</label>
-                        <select name="currency"  class="form-control" >
-                            <option value="RUB">Рубль (RUB)</option>
-                            <option value="USD">Доллар (USD)</option>
-                            <option value="BTC">Bitcoin (BTC)</option>
-                            <option value="ETH">Эфир (ETH)</option>
-                            <option value="EUR">Евро (EUR)</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-success" name="login-button" style="width:100%">Оплатить</button>
-                    </div>
-                </form>
+<!--                <form action="https://www.avatar-bank.com/merchant/index" method="post" role="form" target="_blank">-->
+<!--                    <div class="form-group field-loginform-username required">-->
+<!--                        <label class="control-label" for="loginform-username">Комментарий:</label>-->
+<!--                        <input type="text" class="form-control" name="title">-->
+<!--                        <input type="hidden" class="form-control" name="key" value="C6P30BsiRqCbTl9PkMsNgX6iFpGyiTlgGmNIhlzw">-->
+<!--                        <input type="hidden" class="form-control" name="currency" value="BTC">-->
+<!--                    </div>-->
+<!--                    <div class="form-group field-loginform-password required">-->
+<!--                        <label class="control-label" for="loginform-password">Сколько:</label>-->
+<!--                        <input type="text" id="loginform-password" class="form-control" name="price">-->
+<!--                    </div>-->
+<!--                    <div class="form-group field-loginform-currency required">-->
+<!--                        <label class="control-label" for="loginform-password">Валюта:</label>-->
+<!--                        <select name="currency"  class="form-control" >-->
+<!--                            <option value="RUB">Рубль (RUB)</option>-->
+<!--                            <option value="USD">Доллар (USD)</option>-->
+<!--                            <option value="BTC">Bitcoin (BTC)</option>-->
+<!--                            <option value="ETH">Эфир (ETH)</option>-->
+<!--                            <option value="EUR">Евро (EUR)</option>-->
+<!--                        </select>-->
+<!--                    </div>-->
+<!--                    <div class="form-group">-->
+<!--                        <button type="submit" class="btn btn-success" name="login-button" style="width:100%">Оплатить</button>-->
+<!--                    </div>-->
+<!--                </form>-->
 
             </div>
         </div>
