@@ -203,7 +203,7 @@ JS
                     <div class="form-group field-loginform-username required">
                         <label class="control-label" for="loginform-username">Комментарий:</label>
                         <input type="text" class="form-control" name="title">
-                        <input type="hidden" class="form-control" name="key" value="C6P30BsiRqCbTl9PkMsNgX6iFpGyiTlgGmNIhlzw">
+                        <input type="hidden" class="form-control" name="key" value="OdgQgLAhiNvxbSO5rvE5kawA28MvOAb0CSaSM1ic">
                         <input type="hidden" class="form-control" name="currency" value="BTC">
                     </div>
                     <div class="form-group field-loginform-password required">
