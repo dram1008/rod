@@ -17,13 +17,13 @@ $this->params['breadcrumbs'][] = $this->title;
     <p><img src="/images/controller/site/contact/contact.jpg" width="100%" class="thumbnail"/></p>
 
     <div class="col-lg-8 col-lg-offset-2">
-        <p>Сейчас мы трудимся в Москве и Московской области</p>
+        <p>Сейчас мы трудимся в Москве и Московской области.</p>
 
         <div class="jumbotron">
-            <p>+7-925-237-45-01<br>
+            <p>+7-966-080-10-04<br>
                 +7-926-524-90-91<br>
                 +7-926-518-98-75<br>
-                rod@galaxysss.ru</p>
+                god@galaxysss.ru</p>
 
         </div>
     </div>
