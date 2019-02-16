@@ -12,38 +12,7 @@ $this->title = 'Мастера';
 
 
 <div class="row">
-    <div class="col-sm-4">
-        <img src="/images/controller/masters/index/12191372_961834657217928_6427958805132840409_o.jpg"
-             class="thumbnail" width="100%"
-             style="border-radius: 20px;"
-            />
-        <div style="height: 200px;">
-            <h2 class="center-block text-center">Святослав Архангельский</h2>
-            <p class="center-block text-center">Вохв, Консультант по промежуточному состоянию</p>
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <img src="/images/controller/masters/index/12195120_10200972065380918_7501450503155675234_o.jpg"
-             class="thumbnail" width="100%"
-             style="border-radius: 20px;"
-            />
 
-        <div style="height: 200px;">
-            <h2 class="center-block text-center">Денис Валерьевич</h2>
-            <p class="center-block text-center">Вохв и Консультант по Родам</p>
-        </div>
-    </div>
-    <div class="col-sm-4">
-            <img src="/images/controller/masters/index/bLWg6--nPQQ.jpg"
-                 class="thumbnail" width="100%"
-                style="border-radius: 20px;"
-                />
-
-        <div style="height: 200px;">
-            <h2 class="center-block text-center">Максим Кравцов</h2>
-            <p class="center-block text-center">Исследователь, коуч, психолог, просветитель, путешественник, консультант по вопросам благополучия, автор ряда публикаций и патентов.</p>
-        </div>
-    </div>
 </div>
 
 
